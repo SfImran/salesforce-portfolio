@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Imran Pathan | Senior Salesforce Developer | Freelance Portfolio</title>
+  <meta name="description" content="Imran Pathan — Senior Salesforce Developer with 4+ years of experience in Sales Cloud, Service Cloud, LWC, Apex integrations, and automation. Available for freelance & contract projects." />
+  <meta name="keywords" content="Imran Pathan, Salesforce Developer, LWC, Apex, Freelance, Sales Cloud, Service Cloud, Integration" />
+  <meta property="og:title" content="Imran Pathan | Senior Salesforce Developer" />
+  <meta property="og:description" content="4+ years building scalable CRM solutions. Expert in Apex, LWC, REST integrations & automation. Open to contract & freelance projects." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/og-image.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== BACKGROUND ========== -->
+  <div class="bg-grid"></div>
+  <div class="bg-glow glow-1"></div>
+  <div class="bg-glow glow-2"></div>
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo" aria-label="Home">
+        <span class="logo-bracket">&lt;</span><span class="logo-text">SF</span><span class="logo-slash">/</span><span class="logo-bracket">&gt;</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#certifications" class="nav-link">Certs</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-primary btn-sm nav-cta">Hire Me</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section id="hero">
+    <div class="hero-content reveal">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Available for Freelance Projects
+      </div>
+      <h1 class="hero-title">
+        Senior <span class="gradient-text">Salesforce</span><br />
+        <span id="typing-target" class="typing-text"></span><span class="cursor">|</span>
+      </h1>
+      <p class="hero-subtitle">
+        4+ years designing scalable CRM solutions — from complex Apex integrations and automation to high-performance Lightning Web Components.
+      </p>
+      <div class="hero-chips">
+        <span class="chip">⚡ 4+ Years Exp</span>
+        <span class="chip">🏆 6 Certifications</span>
+        <span class="chip">☁️ Sales Cloud</span>
+        <span class="chip">🔗 Integration Expert</span>
+        <span class="chip">⚙️ LWC Specialist</span>
+        <span class="chip">🤖 Agentforce</span>
+      </div>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary" id="hero-view-projects">View Projects</a>
+        <a href="#contact" class="btn btn-outline" id="hero-contact">Let's Talk</a>
+      </div>
+    </div>
+    <div class="hero-visual reveal reveal-right">
+      <div class="hero-card-wrapper">
+        <div class="hero-profile-card glass-card">
+          <div class="avatar-ring">
+            <div class="avatar-inner">
+              <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+                <circle cx="50" cy="35" r="20" fill="#00a1e4" opacity="0.9"/>
+                <ellipse cx="50" cy="80" rx="30" ry="20" fill="#00a1e4" opacity="0.9"/>
+              </svg>
+            </div>
+          </div>
+          <div class="profile-card-info">
+            <h3>Imran Pathan</h3>
+            <p class="profile-location">📍 Jalna, Maharashtra, India</p>
+            <div class="profile-stats-row">
+              <div class="profile-stat"><span class="pstat-val counter" data-target="4">0</span>+ <span class="pstat-label">Years</span></div>
+              <div class="profile-stat"><span class="pstat-val counter" data-target="6">0</span> <span class="pstat-label">Certs</span></div>
+              <div class="profile-stat"><span class="pstat-val counter" data-target="10">0</span>+ <span class="pstat-label">Projects</span></div>
+            </div>
+          </div>
+        </div>
+        <!-- Floating accent cards -->
+        <div class="float-badge float-badge-1">
+          <span>🔥 Apex Trigger Framework</span>
+        </div>
+        <div class="float-badge float-badge-2">
+          <span>⚡ LWC Expert</span>
+        </div>
+        <div class="float-badge float-badge-3">
+          <span>🔗 REST APIs</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-label">About Me</span>
+        <h2 class="section-title">Building Scalable <span class="gradient-text">CRM Solutions</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-stats-col reveal">
+          <div class="stats-grid">
+            <div class="stat-card glass-card">
+              <span class="stat-number counter" data-target="4">0</span><span class="stat-suffix">+</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-card glass-card">
+              <span class="stat-number counter" data-target="6">0</span>
+              <span class="stat-label">Certifications</span>
+            </div>
+            <div class="stat-card glass-card">
+              <span class="stat-number counter" data-target="3">0</span>
+              <span class="stat-label">Cloud Platforms</span>
+            </div>
+            <div class="stat-card glass-card">
+              <span class="stat-number counter" data-target="10">0</span><span class="stat-suffix">+</span>
+              <span class="stat-label">Projects Delivered</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text-col reveal reveal-right">
+          <p class="about-text">
+            I am a <strong>Senior Salesforce Developer</strong> with 4+ years of experience designing scalable CRM solutions across <strong>Sales Cloud, Service Cloud, and Experience Cloud</strong>.
+          </p>
+          <p class="about-text">
+            My core strength lies in building robust integrations, automation-driven systems, and high-performance <strong>Lightning Web Components</strong>. I focus on writing clean, maintainable code while aligning solutions with real business needs.
+          </p>
+          <p class="about-text">
+            I have worked on <strong>end-to-end implementations</strong> — from requirement analysis to deployment and production support — ensuring reliability, scalability, and performance at every stage.
+          </p>
+          <div class="about-highlights">
+            <div class="highlight-item"><span class="highlight-icon">✅</span> End-to-end Salesforce implementations</div>
+            <div class="highlight-item"><span class="highlight-icon">✅</span> Complex REST/SOAP integrations</div>
+            <div class="highlight-item"><span class="highlight-icon">✅</span> Enterprise automation with Flows & Apex</div>
+            <div class="highlight-item"><span class="highlight-icon">✅</span> Governor-limit-safe, production-grade code</div>
+          </div>
+          <a href="#contact" class="btn btn-primary" id="about-hire-btn">Work With Me →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section id="skills">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-label">Core Skills</span>
+        <h2 class="section-title">Technical <span class="gradient-text">Expertise</span></h2>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-group glass-card reveal">
+          <div class="skill-group-header">
+            <span class="skill-group-icon">☁️</span>
+            <h3>Salesforce Platforms</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="pill">Sales Cloud</span>
+            <span class="pill">Service Cloud</span>
+            <span class="pill">Experience Cloud</span>
+            <span class="pill">Lightning Experience</span>
+            <span class="pill">Salesforce Mobile</span>
+          </div>
+        </div>
+
+        <div class="skill-group glass-card reveal">
+          <div class="skill-group-header">
+            <span class="skill-group-icon">⚙️</span>
+            <h3>Development</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="pill pill-accent">Apex Triggers</span>
+            <span class="pill pill-accent">Batch Apex</span>
+            <span class="pill pill-accent">Queueable Apex</span>
+            <span class="pill pill-accent">LWC</span>
+            <span class="pill pill-accent">Visualforce</span>
+            <span class="pill pill-accent">SOQL / SOSL</span>
+          </div>
+        </div>
+
+        <div class="skill-group glass-card reveal">
+          <div class="skill-group-header">
+            <span class="skill-group-icon">🔄</span>
+            <h3>Automation</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="pill pill-violet">Salesforce Flows</span>
+            <span class="pill pill-violet">Record-Triggered Flows</span>
+            <span class="pill pill-violet">Screen Flows</span>
+            <span class="pill pill-violet">Process Builder</span>
+            <span class="pill pill-violet">Approval Processes</span>
+          </div>
+        </div>
+
+        <div class="skill-group glass-card reveal">
+          <div class="skill-group-header">
+            <span class="skill-group-icon">🔗</span>
+            <h3>Integration</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="pill">REST APIs</span>
+            <span class="pill">SOAP APIs</span>
+            <span class="pill">Named Credentials</span>
+            <span class="pill">Platform Events</span>
+            <span class="pill">JSON / XML</span>
+          </div>
+        </div>
+
+        <div class="skill-group glass-card reveal">
+          <div class="skill-group-header">
+            <span class="skill-group-icon">🏗️</span>
+            <h3>Architecture</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="pill pill-accent">Data Modeling</span>
+            <span class="pill pill-accent">Security Model</span>
+            <span class="pill pill-accent">Integration Architecture</span>
+            <span class="pill pill-accent">Multi-Org Strategy</span>
+          </div>
+        </div>
+
+        <div class="skill-group glass-card reveal">
+          <div class="skill-group-header">
+            <span class="skill-group-icon">🚀</span>
+            <h3>DevOps & Tools</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="pill pill-violet">Git / Bitbucket</span>
+            <span class="pill pill-violet">Salesforce CLI</span>
+            <span class="pill pill-violet">Gearset</span>
+            <span class="pill pill-violet">Copado</span>
+            <span class="pill pill-violet">VS Code</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Skill Bars -->
+      <div class="skill-bars-wrapper reveal">
+        <h3 class="skill-bars-title">Proficiency Levels</h3>
+        <div class="skill-bars">
+          <div class="skill-bar-item">
+            <div class="skill-bar-label"><span>Apex Development</span><span>95%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" data-width="95"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-label"><span>Lightning Web Components</span><span>92%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" data-width="92"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-label"><span>Salesforce Flows & Automation</span><span>90%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" data-width="90"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-label"><span>REST / SOAP Integrations</span><span>88%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" data-width="88"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-label"><span>Data Architecture & Modeling</span><span>85%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section id="projects">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-label">Featured Work</span>
+        <h2 class="section-title">High-Impact <span class="gradient-text">Projects</span></h2>
+        <p class="section-desc">Real-world Salesforce solutions designed for scale, reliability, and measurable business impact.</p>
+      </div>
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card glass-card reveal" id="project-lead-automation">
+          <div class="project-card-header">
+            <div class="project-number">01</div>
+            <div class="project-tags">
+              <span class="tag tag-blue">Apex</span>
+              <span class="tag tag-blue">Flows</span>
+              <span class="tag tag-blue">Sales Cloud</span>
+            </div>
+          </div>
+          <h3 class="project-title">Lead-to-Opportunity Automation System</h3>
+          <p class="project-desc">Designed and implemented a fully automated lead management system to streamline lead assignment, qualification, and conversion into opportunities.</p>
+
+          <div class="project-architecture">
+            <div class="arch-label">Architecture Overview</div>
+            <svg class="arch-diagram" viewBox="0 0 500 180" xmlns="http://www.w3.org/2000/svg">
+              <!-- Lead Node -->
+              <rect x="10" y="70" width="80" height="40" rx="8" fill="#e0f2fe" stroke="#0073be" stroke-width="1.5"/>
+              <text x="50" y="86" text-anchor="middle" fill="#0073be" font-size="9" font-family="Fira Code">New Lead</text>
+              <text x="50" y="99" text-anchor="middle" fill="#475569" font-size="8">CRM Entry</text>
+              <!-- Arrow -->
+              <path d="M92 90 L122 90" stroke="#0073be" stroke-width="1.5" marker-end="url(#arrow)"/>
+              <!-- Duplicate Check -->
+              <rect x="124" y="70" width="80" height="40" rx="8" fill="#ede9fe" stroke="#6d28d9" stroke-width="1.5"/>
+              <text x="164" y="86" text-anchor="middle" fill="#6d28d9" font-size="9" font-family="Fira Code">Dedup</text>
+              <text x="164" y="99" text-anchor="middle" fill="#475569" font-size="8">Check</text>
+              <!-- Arrow -->
+              <path d="M206 90 L236 90" stroke="#0073be" stroke-width="1.5" marker-end="url(#arrow)"/>
+              <!-- Scoring -->
+              <rect x="238" y="70" width="80" height="40" rx="8" fill="#e0f2fe" stroke="#0073be" stroke-width="1.5"/>
+              <text x="278" y="86" text-anchor="middle" fill="#0073be" font-size="9" font-family="Fira Code">Scoring</text>
+              <text x="278" y="99" text-anchor="middle" fill="#475569" font-size="8">&amp; Assign</text>
+              <!-- Arrow -->
+              <path d="M320 90 L350 90" stroke="#0073be" stroke-width="1.5" marker-end="url(#arrow)"/>
+              <!-- Convert -->
+              <rect x="352" y="70" width="80" height="40" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+              <text x="392" y="86" text-anchor="middle" fill="#16a34a" font-size="9" font-family="Fira Code">Convert</text>
+              <text x="392" y="99" text-anchor="middle" fill="#475569" font-size="8">→ Oppty</text>
+              <!-- Flow below -->
+              <text x="50" y="135" text-anchor="middle" fill="#94a3b8" font-size="8">Trigger</text>
+              <text x="164" y="135" text-anchor="middle" fill="#94a3b8" font-size="8">Apex</text>
+              <text x="278" y="135" text-anchor="middle" fill="#94a3b8" font-size="8">Flow</text>
+              <text x="392" y="135" text-anchor="middle" fill="#94a3b8" font-size="8">Automation</text>
+              <defs>
+                <marker id="arrow" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+                  <path d="M0,0 L0,6 L6,3 z" fill="#0073be"/>
+                </marker>
+              </defs>
+            </svg>
+          </div>
+
+          <div class="project-features">
+            <div class="feature-row"><span class="feat-icon">✦</span> Round-robin lead assignment logic</div>
+            <div class="feature-row"><span class="feat-icon">✦</span> Lead scoring & duplicate prevention</div>
+            <div class="feature-row"><span class="feat-icon">✦</span> Automated follow-up via Flows</div>
+            <div class="feature-row"><span class="feat-icon">✦</span> Seamless Lead → Opportunity conversion</div>
+          </div>
+
+          <div class="project-tech">
+            <span class="tech-chip">Apex Trigger Framework</span>
+            <span class="tech-chip">Salesforce Flow</span>
+            <span class="tech-chip">Custom Metadata</span>
+            <span class="tech-chip">Validation Rules</span>
+          </div>
+
+          <div class="project-impact">
+            <div class="impact-item"><span class="impact-icon">📉</span> Reduced manual lead handling effort</div>
+            <div class="impact-item"><span class="impact-icon">📈</span> Improved lead conversion efficiency</div>
+            <div class="impact-item"><span class="impact-icon">✅</span> Ensured data quality & consistency</div>
+          </div>
+
+          <div class="project-footer">
+            <a href="#contact" class="btn btn-outline btn-sm" id="proj1-discuss">Discuss Similar Project →</a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card glass-card reveal" id="project-integration">
+          <div class="project-card-header">
+            <div class="project-number project-number-violet">02</div>
+            <div class="project-tags">
+              <span class="tag tag-violet">REST API</span>
+              <span class="tag tag-violet">Queueable</span>
+              <span class="tag tag-violet">Platform Events</span>
+            </div>
+          </div>
+          <h3 class="project-title">External System Integration Framework</h3>
+          <p class="project-desc">Built a scalable and fault-tolerant integration framework between Salesforce and external systems using REST APIs with retry logic and centralized error logging.</p>
+
+          <div class="project-architecture">
+            <div class="arch-label">Architecture Overview</div>
+            <svg class="arch-diagram" viewBox="0 0 500 180" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <marker id="arrow2" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+                  <path d="M0,0 L0,6 L6,3 z" fill="#6d28d9"/>
+                </marker>
+              </defs>
+              <!-- Salesforce -->
+              <rect x="10" y="60" width="90" height="60" rx="8" fill="#e0f2fe" stroke="#0073be" stroke-width="1.5"/>
+              <text x="55" y="84" text-anchor="middle" fill="#0073be" font-size="9" font-family="Fira Code">Salesforce</text>
+              <text x="55" y="97" text-anchor="middle" fill="#475569" font-size="8">Platform</text>
+              <text x="55" y="110" text-anchor="middle" fill="#475569" font-size="8">Events</text>
+              <!-- Arrow -->
+              <path d="M102 90 L140 90" stroke="#6d28d9" stroke-width="1.5" marker-end="url(#arrow2)"/>
+              <!-- Queueable -->
+              <rect x="142" y="60" width="90" height="60" rx="8" fill="#ede9fe" stroke="#6d28d9" stroke-width="1.5"/>
+              <text x="187" y="84" text-anchor="middle" fill="#6d28d9" font-size="9" font-family="Fira Code">Queueable</text>
+              <text x="187" y="97" text-anchor="middle" fill="#475569" font-size="8">Apex</text>
+              <text x="187" y="110" text-anchor="middle" fill="#475569" font-size="8">+ Retry</text>
+              <!-- Arrow -->
+              <path d="M234 90 L272 90" stroke="#6d28d9" stroke-width="1.5" marker-end="url(#arrow2)"/>
+              <!-- Named Cred -->
+              <rect x="274" y="60" width="90" height="60" rx="8" fill="#ede9fe" stroke="#6d28d9" stroke-width="1.5"/>
+              <text x="319" y="84" text-anchor="middle" fill="#6d28d9" font-size="9" font-family="Fira Code">Named</text>
+              <text x="319" y="97" text-anchor="middle" fill="#475569" font-size="8">Credentials</text>
+              <text x="319" y="110" text-anchor="middle" fill="#475569" font-size="8">Auth</text>
+              <!-- Arrow -->
+              <path d="M366 90 L404 90" stroke="#6d28d9" stroke-width="1.5" marker-end="url(#arrow2)"/>
+              <!-- External -->
+              <rect x="406" y="60" width="80" height="60" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+              <text x="446" y="84" text-anchor="middle" fill="#16a34a" font-size="9" font-family="Fira Code">External</text>
+              <text x="446" y="97" text-anchor="middle" fill="#475569" font-size="8">System</text>
+              <text x="446" y="110" text-anchor="middle" fill="#475569" font-size="8">REST API</text>
+              <!-- Error Logger below -->
+              <rect x="142" y="145" width="220" height="22" rx="5" fill="#fee2e2" stroke="#ef4444" stroke-width="1"/>
+              <text x="252" y="160" text-anchor="middle" fill="#dc2626" font-size="8" font-family="Fira Code">Centralized Error Logger (Custom Object)</text>
+            </svg>
+          </div>
+
+          <div class="project-features">
+            <div class="feature-row"><span class="feat-icon">✦</span> Async API callouts via Queueable Apex</div>
+            <div class="feature-row"><span class="feat-icon">✦</span> Retry mechanism for failed transactions</div>
+            <div class="feature-row"><span class="feat-icon">✦</span> Centralized error logging framework</div>
+            <div class="feature-row"><span class="feat-icon">✦</span> Secure auth via Named Credentials</div>
+          </div>
+
+          <div class="project-tech">
+            <span class="tech-chip">Queueable Apex</span>
+            <span class="tech-chip">REST API</span>
+            <span class="tech-chip">Platform Events</span>
+            <span class="tech-chip">Named Credentials</span>
+            <span class="tech-chip">JSON Processing</span>
+          </div>
+
+          <div class="project-impact">
+            <div class="impact-item"><span class="impact-icon">🔒</span> Improved integration reliability</div>
+            <div class="impact-item"><span class="impact-icon">📉</span> Reduced failure rates with retry logic</div>
+            <div class="impact-item"><span class="impact-icon">⚡</span> Enabled real-time data sync</div>
+          </div>
+
+          <div class="project-footer">
+            <a href="#contact" class="btn btn-outline btn-sm" id="proj2-discuss">Discuss Similar Project →</a>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card glass-card reveal" id="project-dashboard">
+          <div class="project-card-header">
+            <div class="project-number">03</div>
+            <div class="project-tags">
+              <span class="tag tag-blue">LWC</span>
+              <span class="tag tag-blue">Apex</span>
+              <span class="tag tag-blue">Service Cloud</span>
+            </div>
+          </div>
+          <h3 class="project-title">Case Management Dashboard (LWC)</h3>
+          <p class="project-desc">Developed an interactive, high-performance dashboard for case management to enhance user productivity and visibility with real-time Apex-driven data.</p>
+
+          <div class="project-architecture">
+            <div class="arch-label">LWC Component Architecture</div>
+            <svg class="arch-diagram" viewBox="0 0 500 180" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <marker id="arrow3" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+                  <path d="M0,0 L0,6 L6,3 z" fill="#0073be"/>
+                </marker>
+              </defs>
+              <!-- Root Component -->
+              <rect x="175" y="10" width="150" height="35" rx="8" fill="#e0f2fe" stroke="#0073be" stroke-width="1.5"/>
+              <text x="250" y="23" text-anchor="middle" fill="#0073be" font-size="9" font-family="Fira Code">caseDashboard</text>
+              <text x="250" y="36" text-anchor="middle" fill="#475569" font-size="8">(Parent LWC)</text>
+              <!-- Lines down -->
+              <line x1="180" y1="45" x2="80" y2="80" stroke="#0073be" stroke-width="1" opacity="0.5"/>
+              <line x1="250" y1="45" x2="250" y2="80" stroke="#0073be" stroke-width="1" opacity="0.5"/>
+              <line x1="320" y1="45" x2="420" y2="80" stroke="#0073be" stroke-width="1" opacity="0.5"/>
+              <!-- Child 1 -->
+              <rect x="20" y="80" width="120" height="35" rx="8" fill="#ede9fe" stroke="#6d28d9" stroke-width="1.2"/>
+              <text x="80" y="95" text-anchor="middle" fill="#6d28d9" font-size="8" font-family="Fira Code">caseFilter</text>
+              <text x="80" y="107" text-anchor="middle" fill="#475569" font-size="7">Search &amp; Filter</text>
+              <!-- Child 2 -->
+              <rect x="185" y="80" width="130" height="35" rx="8" fill="#e0f2fe" stroke="#0073be" stroke-width="1.2"/>
+              <text x="250" y="95" text-anchor="middle" fill="#0073be" font-size="8" font-family="Fira Code">caseList</text>
+              <text x="250" y="107" text-anchor="middle" fill="#475569" font-size="7">Paginated Table</text>
+              <!-- Child 3 -->
+              <rect x="360" y="80" width="120" height="35" rx="8" fill="#ede9fe" stroke="#6d28d9" stroke-width="1.2"/>
+              <text x="420" y="95" text-anchor="middle" fill="#6d28d9" font-size="8" font-family="Fira Code">caseDetail</text>
+              <text x="420" y="107" text-anchor="middle" fill="#475569" font-size="7">Detail Panel</text>
+              <!-- Apex Controller -->
+              <rect x="140" y="145" width="220" height="22" rx="5" fill="#dcfce7" stroke="#16a34a" stroke-width="1"/>
+              <text x="250" y="160" text-anchor="middle" fill="#16a34a" font-size="8" font-family="Fira Code">CaseDashboardController.cls (Apex)</text>
+            </svg>
+          </div>
+
+          <div class="project-features">
+            <div class="feature-row"><span class="feat-icon">✦</span> Dynamic filtering & search</div>
+            <div class="feature-row"><span class="feat-icon">✦</span> Pagination & lazy loading</div>
+            <div class="feature-row"><span class="feat-icon">✦</span> Role-based data visibility</div>
+            <div class="feature-row"><span class="feat-icon">✦</span> Real-time updates via Apex</div>
+          </div>
+
+          <div class="project-tech">
+            <span class="tech-chip">LWC</span>
+            <span class="tech-chip">Apex Controllers</span>
+            <span class="tech-chip">Lightning Data Service</span>
+            <span class="tech-chip">SOQL Optimization</span>
+          </div>
+
+          <div class="project-impact">
+            <div class="impact-item"><span class="impact-icon">🎯</span> Improved user experience & efficiency</div>
+            <div class="impact-item"><span class="impact-icon">⚡</span> Reduced page load with optimized SOQL</div>
+            <div class="impact-item"><span class="impact-icon">📊</span> Enhanced decision-making visibility</div>
+          </div>
+
+          <div class="project-footer">
+            <a href="#contact" class="btn btn-outline btn-sm" id="proj3-discuss">Discuss Similar Project →</a>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card glass-card reveal" id="project-experience-cloud">
+          <div class="project-card-header">
+            <div class="project-number project-number-violet">04</div>
+            <div class="project-tags">
+              <span class="tag tag-violet">Experience Cloud</span>
+              <span class="tag tag-violet">LWC</span>
+              <span class="tag tag-violet">Community</span>
+            </div>
+          </div>
+          <h3 class="project-title">Customer Self-Service Portal (Experience Cloud)</h3>
+          <p class="project-desc">Built a branded customer portal on Experience Cloud enabling self-service case submissions, knowledge base access, and order tracking — reducing support team workload significantly.</p>
+
+          <div class="project-architecture">
+            <div class="arch-label">Portal Architecture</div>
+            <svg class="arch-diagram" viewBox="0 0 500 140" xmlns="http://www.w3.org/2000/svg">
+              <defs><marker id="arrow4" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto"><path d="M0,0 L0,6 L6,3 z" fill="#6d28d9"/></marker></defs>
+              <rect x="10" y="50" width="90" height="40" rx="8" fill="#ede9fe" stroke="#6d28d9" stroke-width="1.5"/>
+              <text x="55" y="66" text-anchor="middle" fill="#6d28d9" font-size="9" font-family="Fira Code">Customer</text>
+              <text x="55" y="79" text-anchor="middle" fill="#475569" font-size="8">Portal User</text>
+              <path d="M102 70 L132 70" stroke="#6d28d9" stroke-width="1.5" marker-end="url(#arrow4)"/>
+              <rect x="134" y="50" width="100" height="40" rx="8" fill="#e0f2fe" stroke="#0073be" stroke-width="1.5"/>
+              <text x="184" y="66" text-anchor="middle" fill="#0073be" font-size="9" font-family="Fira Code">Exp. Cloud</text>
+              <text x="184" y="79" text-anchor="middle" fill="#475569" font-size="8">LWC Pages</text>
+              <path d="M236 70 L266 70" stroke="#6d28d9" stroke-width="1.5" marker-end="url(#arrow4)"/>
+              <rect x="268" y="50" width="100" height="40" rx="8" fill="#e0f2fe" stroke="#0073be" stroke-width="1.5"/>
+              <text x="318" y="66" text-anchor="middle" fill="#0073be" font-size="9" font-family="Fira Code">Apex APIs</text>
+              <text x="318" y="79" text-anchor="middle" fill="#475569" font-size="8">+ SOQL</text>
+              <path d="M370 70 L400 70" stroke="#6d28d9" stroke-width="1.5" marker-end="url(#arrow4)"/>
+              <rect x="402" y="50" width="88" height="40" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+              <text x="446" y="66" text-anchor="middle" fill="#16a34a" font-size="9" font-family="Fira Code">Service</text>
+              <text x="446" y="79" text-anchor="middle" fill="#475569" font-size="8">Cloud CRM</text>
+            </svg>
+          </div>
+
+          <div class="project-features">
+            <div class="feature-row"><span class="feat-icon">✦</span> Branded portal with custom LWC components</div>
+            <div class="feature-row"><span class="feat-icon">✦</span> Self-service case creation & status tracking</div>
+            <div class="feature-row"><span class="feat-icon">✦</span> Knowledge base with dynamic search</div>
+            <div class="feature-row"><span class="feat-icon">✦</span> Guest & authenticated user access controls</div>
+          </div>
+
+          <div class="project-tech">
+            <span class="tech-chip">Experience Cloud</span>
+            <span class="tech-chip">LWC</span>
+            <span class="tech-chip">Apex REST</span>
+            <span class="tech-chip">Guest Profile</span>
+          </div>
+
+          <div class="project-impact">
+            <div class="impact-item"><span class="impact-icon">📉</span> Reduced inbound support volume</div>
+            <div class="impact-item"><span class="impact-icon">⭐</span> Improved customer satisfaction scores</div>
+            <div class="impact-item"><span class="impact-icon">🔒</span> Secure role-based data visibility</div>
+          </div>
+
+          <div class="project-footer">
+            <a href="#contact" class="btn btn-outline btn-sm" id="proj4-discuss">Discuss Similar Project →</a>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card glass-card reveal" id="project-cpq-approval">
+          <div class="project-card-header">
+            <div class="project-number">05</div>
+            <div class="project-tags">
+              <span class="tag tag-blue">Flows</span>
+              <span class="tag tag-blue">Approvals</span>
+              <span class="tag tag-blue">Sales Cloud</span>
+            </div>
+          </div>
+          <h3 class="project-title">Quote Approval & Discount Governance Flow</h3>
+          <p class="project-desc">Implemented a multi-level quote approval system with discount thresholds, manager escalations, and automated notifications — enforcing pricing governance across the sales team.</p>
+
+          <div class="project-architecture">
+            <div class="arch-label">Approval Flow</div>
+            <svg class="arch-diagram" viewBox="0 0 500 140" xmlns="http://www.w3.org/2000/svg">
+              <defs><marker id="arrow5" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto"><path d="M0,0 L0,6 L6,3 z" fill="#0073be"/></marker></defs>
+              <rect x="10" y="50" width="80" height="40" rx="8" fill="#e0f2fe" stroke="#0073be" stroke-width="1.5"/>
+              <text x="50" y="66" text-anchor="middle" fill="#0073be" font-size="9" font-family="Fira Code">Quote</text>
+              <text x="50" y="79" text-anchor="middle" fill="#475569" font-size="8">Submitted</text>
+              <path d="M92 70 L122 70" stroke="#0073be" stroke-width="1.5" marker-end="url(#arrow5)"/>
+              <rect x="124" y="50" width="90" height="40" rx="8" fill="#fef9c3" stroke="#ca8a04" stroke-width="1.5"/>
+              <text x="169" y="66" text-anchor="middle" fill="#92400e" font-size="9" font-family="Fira Code">Discount</text>
+              <text x="169" y="79" text-anchor="middle" fill="#92400e" font-size="8">Check %</text>
+              <path d="M216 70 L246 70" stroke="#0073be" stroke-width="1.5" marker-end="url(#arrow5)"/>
+              <rect x="248" y="50" width="90" height="40" rx="8" fill="#ede9fe" stroke="#6d28d9" stroke-width="1.5"/>
+              <text x="293" y="66" text-anchor="middle" fill="#6d28d9" font-size="9" font-family="Fira Code">Manager</text>
+              <text x="293" y="79" text-anchor="middle" fill="#475569" font-size="8">Approval</text>
+              <path d="M340 70 L370 70" stroke="#0073be" stroke-width="1.5" marker-end="url(#arrow5)"/>
+              <rect x="372" y="50" width="118" height="40" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+              <text x="431" y="66" text-anchor="middle" fill="#16a34a" font-size="9" font-family="Fira Code">Approved</text>
+              <text x="431" y="79" text-anchor="middle" fill="#475569" font-size="8">→ Activate</text>
+            </svg>
+          </div>
+
+          <div class="project-features">
+            <div class="feature-row"><span class="feat-icon">✦</span> Multi-tier discount threshold logic</div>
+            <div class="feature-row"><span class="feat-icon">✦</span> Automated manager escalation</div>
+            <div class="feature-row"><span class="feat-icon">✦</span> Email notifications at each stage</div>
+            <div class="feature-row"><span class="feat-icon">✦</span> Approval history & audit trail</div>
+          </div>
+
+          <div class="project-tech">
+            <span class="tech-chip">Approval Processes</span>
+            <span class="tech-chip">Screen Flows</span>
+            <span class="tech-chip">Apex Triggers</span>
+            <span class="tech-chip">Email Alerts</span>
+          </div>
+
+          <div class="project-impact">
+            <div class="impact-item"><span class="impact-icon">💰</span> Enforced pricing governance</div>
+            <div class="impact-item"><span class="impact-icon">⚡</span> Reduced manual approval turnaround time</div>
+            <div class="impact-item"><span class="impact-icon">📋</span> Full audit trail for compliance</div>
+          </div>
+
+          <div class="project-footer">
+            <a href="#contact" class="btn btn-outline btn-sm" id="proj5-discuss">Discuss Similar Project →</a>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="project-card glass-card reveal" id="project-data-migration">
+          <div class="project-card-header">
+            <div class="project-number project-number-violet">06</div>
+            <div class="project-tags">
+              <span class="tag tag-violet">Batch Apex</span>
+              <span class="tag tag-violet">Data Migration</span>
+              <span class="tag tag-violet">LDV</span>
+            </div>
+          </div>
+          <h3 class="project-title">Large-Scale Data Migration & Cleansing (Batch Apex)</h3>
+          <p class="project-desc">Architected and executed a large-volume data migration from a legacy system into Salesforce using Batch Apex, with built-in validation, deduplication, and rollback-safe checkpointing.</p>
+
+          <div class="project-architecture">
+            <div class="arch-label">Batch Processing Flow</div>
+            <svg class="arch-diagram" viewBox="0 0 500 140" xmlns="http://www.w3.org/2000/svg">
+              <defs><marker id="arrow6" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto"><path d="M0,0 L0,6 L6,3 z" fill="#6d28d9"/></marker></defs>
+              <rect x="10" y="50" width="90" height="40" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+              <text x="55" y="66" text-anchor="middle" fill="#92400e" font-size="9" font-family="Fira Code">Legacy</text>
+              <text x="55" y="79" text-anchor="middle" fill="#92400e" font-size="8">System CSV</text>
+              <path d="M102 70 L132 70" stroke="#6d28d9" stroke-width="1.5" marker-end="url(#arrow6)"/>
+              <rect x="134" y="50" width="100" height="40" rx="8" fill="#ede9fe" stroke="#6d28d9" stroke-width="1.5"/>
+              <text x="184" y="66" text-anchor="middle" fill="#6d28d9" font-size="9" font-family="Fira Code">Validate</text>
+              <text x="184" y="79" text-anchor="middle" fill="#475569" font-size="8">+ Dedup</text>
+              <path d="M236 70 L266 70" stroke="#6d28d9" stroke-width="1.5" marker-end="url(#arrow6)"/>
+              <rect x="268" y="50" width="100" height="40" rx="8" fill="#ede9fe" stroke="#6d28d9" stroke-width="1.5"/>
+              <text x="318" y="66" text-anchor="middle" fill="#6d28d9" font-size="9" font-family="Fira Code">Batch Apex</text>
+              <text x="318" y="79" text-anchor="middle" fill="#475569" font-size="8">200 chunks</text>
+              <path d="M370 70 L400 70" stroke="#6d28d9" stroke-width="1.5" marker-end="url(#arrow6)"/>
+              <rect x="402" y="50" width="88" height="40" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+              <text x="446" y="66" text-anchor="middle" fill="#16a34a" font-size="9" font-family="Fira Code">Salesforce</text>
+              <text x="446" y="79" text-anchor="middle" fill="#475569" font-size="8">Records</text>
+            </svg>
+          </div>
+
+          <div class="project-features">
+            <div class="feature-row"><span class="feat-icon">✦</span> Batch Apex with 200-record chunks</div>
+            <div class="feature-row"><span class="feat-icon">✦</span> Pre-migration data validation & cleansing</div>
+            <div class="feature-row"><span class="feat-icon">✦</span> Checkpointing for safe re-runs</div>
+            <div class="feature-row"><span class="feat-icon">✦</span> Governor-limit-safe throughout</div>
+          </div>
+
+          <div class="project-tech">
+            <span class="tech-chip">Batch Apex</span>
+            <span class="tech-chip">Data Loader</span>
+            <span class="tech-chip">LDV Handling</span>
+            <span class="tech-chip">Custom Metadata</span>
+          </div>
+
+          <div class="project-impact">
+            <div class="impact-item"><span class="impact-icon">✅</span> Zero data loss during migration</div>
+            <div class="impact-item"><span class="impact-icon">⚡</span> Processed 500k+ records reliably</div>
+            <div class="impact-item"><span class="impact-icon">📊</span> Clean, validated data in production</div>
+          </div>
+
+          <div class="project-footer">
+            <a href="#contact" class="btn btn-outline btn-sm" id="proj6-discuss">Discuss Similar Project →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CERTIFICATIONS ========== -->
+  <section id="certifications">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-label">Credentials</span>
+        <h2 class="section-title">Salesforce <span class="gradient-text">Certifications</span></h2>
+        <p class="section-desc">Verified expertise across Salesforce's certification program.</p>
+      </div>
+      <div class="certs-grid">
+        <div class="cert-card glass-card reveal" id="cert-pd">
+          <div class="cert-icon">⭐</div>
+          <div class="cert-badge-icon">
+            <svg viewBox="0 0 40 40" width="40" height="40"><circle cx="20" cy="20" r="18" fill="#0057b8" opacity="0.2" stroke="#00a1e4" stroke-width="1.5"/><text x="20" y="26" text-anchor="middle" fill="#00a1e4" font-size="18">🏅</text></svg>
+          </div>
+          <h3>Platform Developer I</h3>
+          <p>Salesforce Certified</p>
+          <div class="cert-bar"></div>
+        </div>
+        <div class="cert-card glass-card reveal" id="cert-admin">
+          <div class="cert-icon">⭐</div>
+          <div class="cert-badge-icon">
+            <svg viewBox="0 0 40 40" width="40" height="40"><circle cx="20" cy="20" r="18" fill="#0057b8" opacity="0.2" stroke="#00a1e4" stroke-width="1.5"/><text x="20" y="26" text-anchor="middle" fill="#00a1e4" font-size="18">🛡️</text></svg>
+          </div>
+          <h3>Platform Administrator</h3>
+          <p>Salesforce Certified</p>
+          <div class="cert-bar"></div>
+        </div>
+        <div class="cert-card glass-card reveal" id="cert-js">
+          <div class="cert-icon">⭐</div>
+          <div class="cert-badge-icon">
+            <svg viewBox="0 0 40 40" width="40" height="40"><circle cx="20" cy="20" r="18" fill="#0057b8" opacity="0.2" stroke="#7c3aed" stroke-width="1.5"/><text x="20" y="26" text-anchor="middle" fill="#a78bfa" font-size="18">⚡</text></svg>
+          </div>
+          <h3>JavaScript Developer I</h3>
+          <p>Salesforce Certified</p>
+          <div class="cert-bar cert-bar-violet"></div>
+        </div>
+        <div class="cert-card glass-card reveal" id="cert-ai">
+          <div class="cert-icon">⭐</div>
+          <div class="cert-badge-icon">
+            <svg viewBox="0 0 40 40" width="40" height="40"><circle cx="20" cy="20" r="18" fill="#0057b8" opacity="0.2" stroke="#7c3aed" stroke-width="1.5"/><text x="20" y="26" text-anchor="middle" fill="#a78bfa" font-size="18">🤖</text></svg>
+          </div>
+          <h3>AI Associate</h3>
+          <p>Salesforce Certified</p>
+          <div class="cert-bar cert-bar-violet"></div>
+        </div>
+        <div class="cert-card glass-card reveal" id="cert-agentforce">
+          <div class="cert-icon">⭐</div>
+          <div class="cert-badge-icon">
+            <svg viewBox="0 0 40 40" width="40" height="40"><circle cx="20" cy="20" r="18" fill="#0057b8" opacity="0.2" stroke="#22c55e" stroke-width="1.5"/><text x="20" y="26" text-anchor="middle" fill="#22c55e" font-size="18">🦾</text></svg>
+          </div>
+          <h3>Agentforce Specialist</h3>
+          <p>Salesforce Certified</p>
+          <div class="cert-bar cert-bar-green"></div>
+        </div>
+        <div class="cert-card glass-card reveal" id="cert-foundations">
+          <div class="cert-icon">⭐</div>
+          <div class="cert-badge-icon">
+            <svg viewBox="0 0 40 40" width="40" height="40"><circle cx="20" cy="20" r="18" fill="#0057b8" opacity="0.2" stroke="#22c55e" stroke-width="1.5"/><text x="20" y="26" text-anchor="middle" fill="#22c55e" font-size="18">🎓</text></svg>
+          </div>
+          <h3>Platform Foundations</h3>
+          <p>Salesforce Certified</p>
+          <div class="cert-bar cert-bar-green"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== WHAT I BRING ========== -->
+  <section id="value">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-label">Why Hire Me</span>
+        <h2 class="section-title">What I <span class="gradient-text">Bring</span></h2>
+      </div>
+      <div class="value-grid">
+        <div class="value-card glass-card reveal" id="val-problem">
+          <div class="value-icon">🧩</div>
+          <h3>Strong Problem Solver</h3>
+          <p>I break complex Salesforce challenges into clean, maintainable solutions. No over-engineering — just the right approach for your business.</p>
+        </div>
+        <div class="value-card glass-card reveal" id="val-scale">
+          <div class="value-icon">📐</div>
+          <h3>Scalable System Design</h3>
+          <p>From data models to integration architecture, I design systems built for long-term scale — not just the immediate requirement.</p>
+        </div>
+        <div class="value-card glass-card reveal" id="val-team">
+          <div class="value-icon">🤝</div>
+          <h3>Cross-Functional Collaboration</h3>
+          <p>Experience working alongside product, ops, and business teams to deliver solutions that truly align with stakeholder needs.</p>
+        </div>
+        <div class="value-card glass-card reveal" id="val-quality">
+          <div class="value-icon">⚡</div>
+          <h3>Performance & Maintainability</h3>
+          <p>Governor-limit-safe code, optimized SOQL, and clean patterns. Code that your team can maintain long after delivery.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-label">Let's Work Together</span>
+        <h2 class="section-title">Ready to <span class="gradient-text">Start a Project?</span></h2>
+        <p class="section-desc">Available for freelance Salesforce development projects worldwide. Let's discuss your requirements.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="contact-info-card glass-card">
+            <h3>Get In Touch</h3>
+            <p>Whether you need a new Salesforce implementation, integration work, LWC development, or automation — I can help.</p>
+            <div class="contact-links">
+              <a href="https://www.linkedin.com/in/imran-pathan-644485125" target="_blank" rel="noopener" class="contact-link" id="contact-linkedin">
+                <span class="contact-link-icon">🔗</span>
+                <span>linkedin.com/in/imran-pathan</span>
+              </a>
+              <a href="https://github.com/imranpathanSF" target="_blank" rel="noopener" class="contact-link" id="contact-github">
+                <span class="contact-link-icon">🐙</span>
+                <span>github.com/imranpathanSF</span>
+              </a>
+              <a href="https://trailblazer.me/id/ipathan15" target="_blank" rel="noopener" class="contact-link" id="contact-trailhead">
+                <span class="contact-link-icon">🌟</span>
+                <span>Trailblazer Profile</span>
+              </a>
+            </div>
+            <div class="availability-badge">
+              <span class="avail-dot"></span>
+              Currently available for new projects
+            </div>
+          </div>
+        </div>
+
+        <!-- WhatsApp CTA Card -->
+        <div class="contact-wa-col reveal reveal-right">
+          <div class="whatsapp-card glass-card">
+            <div class="wa-icon-wrap">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="24" fill="#25D366" opacity="0.12"/>
+                <path d="M24 8C15.163 8 8 15.163 8 24c0 2.837.742 5.5 2.04 7.81L8 40l8.42-2.007A15.93 15.93 0 0024 40c8.837 0 16-7.163 16-16S32.837 8 24 8zm8.44 21.84c-.36.99-2.1 1.94-2.88 2.02-.77.08-1.5.37-5.06-1.06-4.28-1.73-7.03-6.1-7.24-6.38-.21-.28-1.73-2.3-1.73-4.39s1.09-3.12 1.48-3.55c.39-.43.85-.54 1.13-.54h.82c.26 0 .61-.1.96.73.36.85 1.22 2.96 1.33 3.17.11.21.18.46.04.73-.15.27-.22.44-.43.68-.21.24-.44.53-.63.71-.21.2-.43.41-.18.81.24.39 1.09 1.8 2.34 2.92 1.61 1.44 2.97 1.88 3.37 2.09.39.21.62.18.85-.11.23-.29.98-1.14 1.24-1.53.26-.39.52-.32.88-.19.36.13 2.29 1.08 2.68 1.28.39.2.65.29.74.46.1.17.1 1-.25 1.97z" fill="#25D366"/>
+              </svg>
+            </div>
+            <h3>Chat on WhatsApp</h3>
+            <p class="wa-subtitle">The fastest way to reach me. Send a message and I'll reply within a few hours.</p>
+
+            <div class="wa-number">
+              <span class="wa-num-label">WhatsApp Number</span>
+              <span class="wa-num-val">+91 9822184068</span>
+            </div>
+
+            <a href="https://wa.me/919822184068?text=Hi%20Imran%2C%20I%20found%20your%20portfolio%20and%20I'm%20interested%20in%20discussing%20a%20Salesforce%20project." target="_blank" rel="noopener" class="btn btn-whatsapp btn-full" id="wa-cta-btn">
+              <svg width="20" height="20" viewBox="0 0 48 48" fill="none"><path d="M24 8C15.163 8 8 15.163 8 24c0 2.837.742 5.5 2.04 7.81L8 40l8.42-2.007A15.93 15.93 0 0024 40c8.837 0 16-7.163 16-16S32.837 8 24 8zm8.44 21.84c-.36.99-2.1 1.94-2.88 2.02-.77.08-1.5.37-5.06-1.06-4.28-1.73-7.03-6.1-7.24-6.38-.21-.28-1.73-2.3-1.73-4.39s1.09-3.12 1.48-3.55c.39-.43.85-.54 1.13-.54h.82c.26 0 .61-.1.96.73.36.85 1.22 2.96 1.33 3.17.11.21.18.46.04.73-.15.27-.22.44-.43.68-.21.24-.44.53-.63.71-.21.2-.43.41-.18.81.24.39 1.09 1.8 2.34 2.92 1.61 1.44 2.97 1.88 3.37 2.09.39.21.62.18.85-.11.23-.29.98-1.14 1.24-1.53.26-.39.52-.32.88-.19.36.13 2.29 1.08 2.68 1.28.39.2.65.29.74.46.1.17.1 1-.25 1.97z" fill="#fff"/></svg>
+              Open WhatsApp Chat
+            </a>
+
+            <div class="wa-features">
+              <div class="wa-feat"><span>⚡</span> Instant delivery</div>
+              <div class="wa-feat"><span>🕐</span> Replies within hours</div>
+              <div class="wa-feat"><span>🌍</span> Available worldwide</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer id="footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <a href="#hero" class="nav-logo footer-logo">
+          <span class="logo-bracket">&lt;</span><span class="logo-text">SF</span><span class="logo-slash">/</span><span class="logo-bracket">&gt;</span>
+        </a>
+        <ul class="footer-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="footer-socials">
+          <a href="https://github.com/imranpathanSF" target="_blank" rel="noopener" aria-label="GitHub" id="footer-github">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/imran-pathan-644485125" target="_blank" rel="noopener" aria-label="LinkedIn" id="footer-linkedin">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Imran Pathan — Senior Salesforce Developer. Available for freelance & contract projects.</p>
+        <p class="footer-note">📍 Jalna, Maharashtra, India &nbsp;|&nbsp; i.pathan2101s@gmail.com &nbsp;|&nbsp; +91 98221 84068</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
